@@ -2,7 +2,8 @@ import pygame
 import os
 import random
 
-pipe_img = pygame.transform.scale2x(pygame.image.load(os.path.join("graphics", "pipe.png")).convert_alpha())
+pygame.display.set_mode((800, 600))
+pipe_img = pygame.transform.scale2x(pygame.image.load(os.path.join("game/graphics", "pipe.png")).convert_alpha())
 
 
 class Pipe:

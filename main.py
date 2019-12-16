@@ -5,7 +5,7 @@ import time
 import pickle
 
 from game import player, obstacle, ground
-from algorithm import neat
+from algorithm import neatai
 
 pygame.font.init()
 
@@ -20,7 +20,7 @@ DRAW_LINES = False
 
 WIN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 pygame.display.set_caption("Flappy Bird")
-gem = 0
+gen = 0
 
 
 def draw_window(win, birds, pipes, base, score, generation, pipe_ind):

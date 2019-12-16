@@ -1,7 +1,7 @@
 import pygame
 import os
 
-img_bird = [pygame.transform.scale2x(pygame.image.load(os.path.join("graphics", "bird" + str(x) + ".png")))
+img_bird = [pygame.transform.scale2x(pygame.image.load(os.path.join("game/graphics", "bird" + str(x) + ".png")))
             for x in range(1, 4)]
 
 

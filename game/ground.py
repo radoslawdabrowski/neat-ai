@@ -1,7 +1,7 @@
 import pygame
 import os
 
-img_ground = pygame.transform.scale2x(pygame.image.load(os.path.join("graphics", "ground.png")).convert_alpha())
+img_ground = pygame.transform.scale2x(pygame.image.load(os.path.join("game/graphics", "ground.png")).convert_alpha())
 
 
 class Ground:
