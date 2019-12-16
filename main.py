@@ -18,6 +18,10 @@ STAT_FONT = pygame.font.SysFont("comicsans", 50)
 END_FONT = pygame.font.SysFont("comicsans", 70)
 DRAW_LINES = False
 
+WIN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
+pygame.display.set_caption("Flappy Bird")
+gem = 0
+
 
 def draw_window(win, birds, pipes, base, score, generation, pipe_ind):
     if generation == 0:
